@@ -1,0 +1,63 @@
+# ==========================================
+# Maven Targets & Build Output
+# ==========================================
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.rar
+
+# ==========================================
+# Eclipse Specific Files & Folders
+# ==========================================
+# Workspace metadata (if workspace root overlaps project root)
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+
+# Eclipse project artifacts
+.settings/
+.project
+.classpath
+.factorypath
+
+# Eclipse plugin metadata / logs
+.recommenders/
+*.log
+
+# ==========================================
+# OS Generated Files
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthru.db
+Desktop.ini
+
+# Linux
+*~
+
+# ==========================================
+# User-Specific / Local Tooling Configs
+# ==========================================
+# IntelliJ / NetBeans (in case collaborators use other IDEs)
+.idea/
+*.iml
+*.iws
+*.ipr
+nbproject/
+build/
